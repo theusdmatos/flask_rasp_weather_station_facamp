@@ -77,5 +77,5 @@ Before getting started, you should have the following installed and running:
 Run Flask Api development server:
 
 ```
-$ python app.py
+python app.py
 ```
