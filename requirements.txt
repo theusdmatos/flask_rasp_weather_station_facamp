@@ -1,3 +1,4 @@
+gunicorn
 click==8.0.3
 Flask==2.0.2
 gcloud==0.17.0
