@@ -41,7 +41,7 @@ def weather():
     print(dbTemp.val())
     print(dbHumi.val())
 
-    update_db()
+    #update_db()
 
     temp = dbTemp.val()
     hum = dbHumi.val()
