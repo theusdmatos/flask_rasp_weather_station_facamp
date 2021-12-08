@@ -33,7 +33,7 @@ A Flask view is used to serve the `index.html` as an entry point into the app at
 |---------------------------|--------------------------------------------|
 | `/app.py`                 | Flask Application                          |
 | `/templates/index.html`   | Html Application Entry Point (`/`)         |
-| `/static/ls/script.js`    | JS Application Entry Point                 |
+| `/static/js/script.js`    | JS Application Entry Point                 |
 | `/static/css/style.css`   | CSS Style Entry Point                      |
 
 
