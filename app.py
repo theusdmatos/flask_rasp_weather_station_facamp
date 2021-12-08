@@ -13,18 +13,6 @@ config = {
 
 app = Flask(__name__)
 
-
-def update_db():
-    firebase = pyrebase.initialize_app(config)
-    data = firebase.database()
-    tempSensor = randint(0, 100)
-    humiSensor = randint(0, 100)
-    tempStr = str(tempSensor)
-    humiStr = str(humiSensor)
-    data.child().update({"Temperatura": tempStr})
-    data.child().update({"Umidade": humiStr})
-
-
 @app.route('/', methods=['POST', 'GET'])
 def weather():
 
@@ -40,8 +28,6 @@ def weather():
     dbHumi = data.child("Umidade").get(user['idToken'])
     print(dbTemp.val())
     print(dbHumi.val())
-
-    #update_db()
 
     temp = dbTemp.val()
     hum = dbHumi.val()
