@@ -28,7 +28,7 @@ def weather():
     data = firebase.database()
     dbTemp = data.child("Temperatura").get(user['idToken'])
     dbHumi = data.child("Umidade").get(user['idToken'])
-    dbCity = data.child("Cidade").get(user['idToken])
+    dbCity = data.child("Cidade").get(user['idToken'])
                                            
     print(dbTemp.val())
     print(dbHumi.val())
