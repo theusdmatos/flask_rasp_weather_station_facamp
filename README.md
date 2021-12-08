@@ -48,7 +48,6 @@ A Flask view is used to serve the `index.html` as an entry point into the app at
 Before getting started, you should have the following installed and running:
 
 - [X] Python 3.8 
-- [X] Pipenv (pip install pipenv)
 
 ##### Project and Dependencies
 
@@ -65,13 +64,9 @@ Before getting started, you should have the following installed and running:
 * Setup virtual environment, install dependencies, and activate it:
 
 	```
-	pipenv install -r requirements.txt
+	pip install -r requirements.txt
 	```
-	```
-	pipenv shell
-	```
-
-
+	
 ## Development Server
 
 Run Flask Api development server:
