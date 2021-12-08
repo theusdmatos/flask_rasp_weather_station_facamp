@@ -57,12 +57,18 @@ Before getting started, you should have the following installed and running:
 	```
 	git clone https://github.com/theusdmatos/flask_rasp_weather_station_facamp.git
 	```
-
+* Enter the project directory
+	
+	```
+	cd flask_rasp_weather_station_facamp
+	```
 * Setup virtual environment, install dependencies, and activate it:
 
 	```
-	$ pipenv install --dev
-	$ pipenv shell
+	pipenv install -r requirements.txt
+	```
+	```
+	pipenv shell
 	```
 
 
