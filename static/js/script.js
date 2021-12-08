@@ -1,7 +1,7 @@
 $(document).ready(function() {
   setInterval(function() {
     cache_clear()
-  }, 300000000000000);
+  }, 20000);
 });
 
 function cache_clear() {
