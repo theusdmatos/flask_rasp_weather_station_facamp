@@ -104,8 +104,8 @@ body
 {
     position: relative;
     display: inline-block;
-    width: 230px;
-    height: 230px;
+    width: 330px;
+    height: 330px;
     border-radius: 100%;
     text-align: center;
     box-shadow: 30px 30px 30px -10px rgba(0,0,0,0.1),
